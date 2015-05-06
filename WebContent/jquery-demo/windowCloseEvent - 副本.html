@@ -1,0 +1,23 @@
+<HTML> 
+       <HEAD> 
+              <TITLE>判断是刷新还是关闭－[url]www.51windows.Net</TITLE> 
+              <meta http-equiv="Content-Type" content="text/html; charset=gb2312"> 
+              <META NAME="Author" CONTENT="51windows,海娃,haiwa"> 
+              <META NAME="Description" CONTENT="Power by 51windows.Net"> 
+       </HEAD> 
+
+       <script language="javascript" type="text/javascript"> 
+       window.attachEvent('onbeforeunload',function(event){
+       	if(event.clientX<=0 || event.clientY<0) { 
+                            alert("关闭"); 
+                     } 
+                     else 
+                     { 
+                            alert("刷新或离开"); 
+                     } 
+       	});
+
+       </script> 
+       <BODY> 
+       </BODY>
+</HTML>
